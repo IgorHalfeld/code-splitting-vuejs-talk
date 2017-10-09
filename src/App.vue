@@ -1,10 +1,13 @@
 <template>
-  <div id="app">
-    <h1>{{ msg }}</h1>
-    <hr>
-    <IGHeader />
-    <IGArticle />
-    <IGFooter />
+  <div class="wrapper" id="app">
+    <nav class="nav">
+      <ul>
+        <li><router-link to="/">Home</router-link></li>
+        <li><router-link to="/about">About</router-link></li>
+      </ul>
+    </nav>
+
+    <router-view></router-view>
   </div>
 </template>
 
@@ -29,6 +32,34 @@ export default {
 
 <style>
 * {
-  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body,
+.wrapper {
+  width: 100%;
+  height: 100%;
+}
+
+.nav {
+  position: absolute;
+  background-color: #fff;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+.nav ul {
+  list-style: none
+}
+
+.nav ul li a {
+  text-decoration: none;
+  color: #444;
+}
+.nav ul li a:hover {
+  text-decoration: underline;
 }
 </style>
