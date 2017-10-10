@@ -60,6 +60,9 @@ if (process.env.NODE_ENV === 'production') {
         NODE_ENV: '"production"'
       }
     }),
+    new webpack.optimize.CommonsChunkPlugin({
+      name: 'common' // Specify the common bundle's name.
+    }),
     new webpack.optimize.UglifyJsPlugin({
       sourceMap: true,
       compress: {
