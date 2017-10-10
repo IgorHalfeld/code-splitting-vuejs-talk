@@ -1,5 +1,5 @@
 <template lang="html">
-  <h1>Article</h1>
+  <h1 class="divider">Article</h1>
 </template>
 
 <script>

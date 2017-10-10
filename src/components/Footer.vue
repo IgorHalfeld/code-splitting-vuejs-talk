@@ -1,5 +1,5 @@
 <template lang="html">
-  <h1>Footer</h1>
+  <h1 class="divider">Footer</h1>
 </template>
 
 <script>
