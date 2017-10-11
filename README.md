@@ -2,13 +2,13 @@
 
 > A talk about code splitting with Vue.js and Webpack at @Accenture
 
-## DEMO
+### DEMO
 
 - [Vue router example](https://github.com/Halfeld/code-splitting-vuejs-talk/tree/router-example)
 - [Prevent Duplication example](https://github.com/Halfeld/code-splitting-vuejs-talk/tree/prevent-duplication)
 - [Entry points example](https://github.com/Halfeld/code-splitting-vuejs-talk/tree/entry-points)
 
-## Build Setup
+### Build Setup
 
 ``` bash
 # install dependencies
